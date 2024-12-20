@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.instruction-text {
+    position: absolute;
+    top: 10px; /* Keep it close to the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to truly center it */
+    color: white;
+    font-size: 14px; /* Smaller font size */
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px; /* Smaller padding */
+    border-radius: 5px;
+}
